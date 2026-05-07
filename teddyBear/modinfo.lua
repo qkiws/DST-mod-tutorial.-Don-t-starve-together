@@ -1,0 +1,9 @@
+name = "Plush Bear"
+description = "Bear made of beefalowool. Saves from durnkess and madness."
+author = "syonuch"
+version = "1.0"
+forumthread = ""
+api_version = 10
+dst_compatible = true
+all_clients_require_mod = true
+client_only_mod = false

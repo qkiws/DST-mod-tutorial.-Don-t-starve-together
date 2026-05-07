@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="plush_bear">
+        <file id="0" name="plush_bear/plush_bear.png" width="256" height="256" pivot_x="0.254864" pivot_y="0.453307"/>
+    </folder>
+    <entity id="0" name="plush_bear">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="plush_bear" folder="0" file="0" abs_x="2.245136" abs_y="2.046693" abs_pivot_x="0.254864" abs_pivot_y="0.453307" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="plush_bear">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="2.245136" y="2.046693"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="BUILD" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="plush_bear_000" folder="0" file="0" abs_x="4" abs_y="-5" abs_pivot_x="0.254864" abs_pivot_y="0.453307" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="plush_bear_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="4" y="-5"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

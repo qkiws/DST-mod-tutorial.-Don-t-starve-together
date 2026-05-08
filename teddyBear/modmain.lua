@@ -27,5 +27,17 @@ AddRecipe2(
     {"SURVIVAL"} -- what part of RECIPES 
 )
 
--- for inventory
+local function MakeSewing(inst)
+    if not GLOBAL.TheWorld.ismastersim then
+        return inst
+    end
+
+    if not inst.components.sewing then
+        inst:AddComponent('sewing')
+    end
+
+    inst.components.sewing.repair_value = 120
+end
+
+AddPrefabPostInit("beefalowool", MakeSewing)
 RegisterInventoryItemAtlas("images/inventoryimages/plush_bear.xml", "plush_bear.tex")
